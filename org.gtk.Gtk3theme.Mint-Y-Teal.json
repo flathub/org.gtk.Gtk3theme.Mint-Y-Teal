@@ -14,9 +14,9 @@
       "build-commands": [
         "ar x mint-themes.deb",
         "tar -xf data.tar.xz",
-        "install -Dm644 usr/share/themes/Mint-Y-Teal/index.theme /usr/share/runtime/share/themes/Mint-Y/index.theme",
-        "install -Dm644 usr/share/themes/Mint-Y-Teal/gtk-3.0/gtk.css /usr/share/runtime/share/themes/Mint-Y/gtk-3.0",
-        "install -Dm644 --target-directory=/usr/share/runtime/share/themes/Mint-Y-Teal/gtk-3.0/assets usr/share/themes/Mint-Y/gtk-3.0/assets/*"
+        "install -Dm644 usr/share/themes/Mint-Y-Teal/index.theme /usr/share/runtime/share/themes/Mint-Y-Teal/index.theme",
+        "install -Dm644 usr/share/themes/Mint-Y-Teal/gtk-3.0/gtk.css /usr/share/runtime/share/themes/Mint-Y-Teal/gtk-3.0",
+        "install -Dm644 --target-directory=/usr/share/runtime/share/themes/Mint-Y-Teal/gtk-3.0/assets usr/share/themes/Mint-Y-Teal/gtk-3.0/assets/*"
       ],
       "sources": [
         {
@@ -33,7 +33,7 @@
       "build-commands": [
         "mkdir -p ${FLATPAK_DEST}/share/appdata",
         "cp org.gtk.Gtk3theme.Mint-Y-Teal.appdata.xml ${FLATPAK_DEST}/share/appdata",
-        "appstream-compose --basename=org.gtk.Gtk3theme.Mint-Y-Teal --prefix=${FLATPAK_DEST} --origin=flatpak org.gtk.Gtk3theme.Mint-Y"
+        "appstream-compose --basename=org.gtk.Gtk3theme.Mint-Y-Teal --prefix=${FLATPAK_DEST} --origin=flatpak org.gtk.Gtk3theme.Mint-Y-Teal"
       ],
       "sources": [
         {
